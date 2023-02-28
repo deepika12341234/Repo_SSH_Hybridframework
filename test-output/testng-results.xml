@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Sorry chrome name is not supported Running test in default browser]]>
+    </line>
+    <line>
+      <![CDATA[Sorry chrome name is not supported Running test in default browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-22T14:15:44 IST" name="Suite" finished-at="2023-02-22T14:16:03 IST" duration-ms="18344">
+    <groups>
+    </groups>
+    <test started-at="2023-02-22T14:15:44 IST" name="Test" finished-at="2023-02-22T14:16:03 IST" duration-ms="18344">
+      <class name="testcases.LoginTest">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:testcases.LoginTest@1339e7aa]" started-at="2023-02-22T14:15:46 IST" name="setupBrowser" finished-at="2023-02-22T14:15:52 IST" duration-ms="6723" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sorry chrome name is not supported Running test in default browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="LoginToApplication(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@1339e7aa]" started-at="2023-02-22T14:15:52 IST" name="LoginToApplication" data-provider="LoginDetails" finished-at="2023-02-22T14:15:55 IST" duration-ms="2977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ineuron@ineuron.ai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ineuron]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApplication -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:testcases.LoginTest@1339e7aa]" started-at="2023-02-22T14:15:56 IST" name="CloseBrowser" finished-at="2023-02-22T14:15:56 IST" duration-ms="536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:testcases.LoginTest@1339e7aa]" started-at="2023-02-22T14:15:56 IST" name="setupBrowser" finished-at="2023-02-22T14:16:00 IST" duration-ms="3226" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sorry chrome name is not supported Running test in default browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="LoginToApplication(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@1339e7aa]" started-at="2023-02-22T14:16:00 IST" name="LoginToApplication" data-provider="LoginDetails" finished-at="2023-02-22T14:16:02 IST" duration-ms="2211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1@test1.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApplication -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:testcases.LoginTest@1339e7aa]" started-at="2023-02-22T14:16:02 IST" name="CloseBrowser" finished-at="2023-02-22T14:16:03 IST" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
